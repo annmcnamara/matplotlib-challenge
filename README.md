@@ -17,7 +17,7 @@ The tasked was to generate all of the tables and figures needed for the technica
 
 All the tumor volumes at the original timepoint are equal at 45 mm3. This allows comparison of final tumor volumes as one measure of drug efficacy. 
 
-Inspecting the mean tumor volume at the final time point, only **two** drug regmimens **reduce** the tumor volume, _Capomulin_ and _Ramicane_). 
+Inspecting the mean tumor volume at the final time point, only **two** drug regmimens **reduce** the tumor volume, _Capomulin_ and _Ramicane_). This can be seen in the boxplot plot in the notebook. 
 
 Interestingly, both of these drugs have around 22\% (or 40) more datapoints than the other regimens as seen in the table below 
 
@@ -40,14 +40,15 @@ Inspecting an individual mouse under the **capomulin regimen** just looking at t
 
 This may indicate that the drug regimen is more effecitve over a certain period of time rather than at just two timepoints.
 
-The **capomulin** treatment was also the most consistent regimen, with the least variance in tumor size across all mice in response to the treatment. 
+The **capomulin** treatment was also the most consistent regimen, with the least variance in tumor size across all mice in response to the treatment. This can be seen from the boxplot and whiskers chart in the notebook. 
 
 
 #### Observation 3: Capomulin may be effective by evaluating other measures
-In this analysis we have focussed on the tumor volume (mm3) as one indicator of drug regimen effectivness.
+In this analysis we have focussed on the tumor volume (mm3) as one indicator of drug regimen effectivness.  
 
 However, there are many more measures that could lead to greater insights. For example, we could inspect the survival rate of the mice (many mice do not have measurements for each timepoint which could indicate expiration), or the number of Metastatic Sites. The sex and age of the mouse may also likely impact each regimen result.
 
+_see below for extra charts supporting these observations_
 
 ## Outcomes: Charts and Tables Generated
 
@@ -83,10 +84,10 @@ Some extra charts were created to support the findings of the data - these chart
 
 ![](images/percentage_change.png)
 
-#### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
+#### Figure 2: Percentage change in average Tumor Volume from first to last timepoint across drug regimen. 
 
 ![](images/capomulin_allmice.png)
-#### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
+#### Figure 3: Average Tumor Volume (mm3) for each mouse across timepoint by Capomulin. 
 
 
 ### Copyright
