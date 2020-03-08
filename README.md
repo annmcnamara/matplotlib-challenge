@@ -73,6 +73,12 @@ This notebook contains the following:
 
 * The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. A Plot the linear regression model on top of the previous scatter plot.
 
+### Extra Charts and Tables to support Observations
+
+Some extra charts were created to support the findings of the data - these charts are included in the notebook and reprodued here. 
+
+
+
 
 ### Copyright
 
