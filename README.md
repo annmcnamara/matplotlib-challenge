@@ -77,8 +77,7 @@ This notebook contains the following:
 
 Some extra charts were created to support the findings of the data - these charts are included in the notebook and reprodued here. 
 
-
-
+![](images/average_volume_over_time.png)
 
 ### Copyright
 
