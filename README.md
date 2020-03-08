@@ -81,7 +81,7 @@ Some extra charts were created to support the findings of the data - these chart
 
 #### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
 
-![](images/percent_change.png)
+![](images/percentage_change.png)
 
 #### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
 
