@@ -13,12 +13,11 @@ The tasked was to generate all of the tables and figures needed for the technica
 
 * Details regarding generated figures and tables are found below
 
-All the tumor volumes at the original timepoint are equal at 45 mm3.
+#### Observation 1: Only two drugs reduce the average tumor volume, Capomulin is one of them. 
 
-This allows comparison of final tumor volumes as one measure of drug efficacy. 
+All the tumor volumes at the original timepoint are equal at 45 mm3. This allows comparison of final tumor volumes as one measure of drug efficacy. 
 
-# Observation 1: Only two drugs reduce the average tumor volume, Capomulin is one of them. 
-Inspecting the mean tumor volume at the final time point, only **two** drug regmimens **reduce** the tumor volume, _Capomulin_ and _Ramicane). 
+Inspecting the mean tumor volume at the final time point, only **two** drug regmimens **reduce** the tumor volume, _Capomulin_ and _Ramicane_). 
 
 Interestingly, both of these drugs have around 22\% (or 40) more datapoints than the other regimens as seen in the table below 
 
@@ -36,9 +35,21 @@ Interestingly, both of these drugs have around 22\% (or 40) more datapoints than
 | Propriva     161 | 161               | 
 
 
+#### Observation 2: Capomulin is effective at reducing tumor size over time
+Inspecting an individual mouse under the **capomulin regimen** just looking at tumor volume over all mice reveals that tumor values can increase and decrease in size over the time frame, but in general there is a reduction in tumor size from the orignal timepoint to the final timepoint, even if the volume increases between first and last timepoint. 
+
+This may indicate that the drug regimen is more effecitve over a certain period of time rather than at just two timepoints.
+
+The **capomulin** treatment was also the most consistent regimen, with the least variance in tumor size across all mice in response to the treatment. 
 
 
-## Outcomes
+#### Observation 3: Capomulin may be effective by evaluating other measures
+In this analysis we have focussed on the tumor volume (mm3) as one indicator of drug regimen effectivness.
+
+However, there are many more measures that could lead to greater insights. For example, we could inspect the survival rate of the mice (many mice do not have measurements for each timepoint which could indicate expiration), or the number of Metastatic Sites. The sex and age of the mouse may also likely impact each regimen result.
+
+
+## Outcomes: Charts and Tables Generated
 
 This notebook contains the following:
 
@@ -62,11 +73,6 @@ This notebook contains the following:
 
 * The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. A Plot the linear regression model on top of the previous scatter plot.
 
-## Observations
-
-* Looking across all generated figures and table here are three observations or inferences that can be made from the data. 
-
-* Details regarding generated figures and tables are found below
 
 ### Copyright
 
