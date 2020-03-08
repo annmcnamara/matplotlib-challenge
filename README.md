@@ -75,9 +75,19 @@ This notebook contains the following:
 
 ### Extra Charts and Tables to support Observations
 
-Some extra charts were created to support the findings of the data - these charts are included in the notebook and reprodued here. 
+Some extra charts were created to support the findings of the data - these charts are included in the notebook and reproduced here. 
 
 ![](images/average_volume_over_time.png)
+
+#### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
+
+![](images/percent_change.png)
+
+#### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
+
+![](capomulin_allmice.png)
+#### Figure 1: Average Tumor Volume (mm3) across timepoint by drug regimen. 
+
 
 ### Copyright
 
